@@ -29,6 +29,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+.env*.local
 
 # env files (can opt-in for committing if needed)
 .env*
@@ -39,3 +40,26 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.pnp.js
+
+
+# debug
+# local env files
+
+
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
