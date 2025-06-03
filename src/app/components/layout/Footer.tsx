@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className="pt-0 pb-16 px-4 sm:px-6 md:px-12 bg-[#F9F9F9] relative">
+        <footer className="pt-0 pb-8 px-4 sm:px-6 md:px-12 bg-[#F9F9F9] relative">
             <div className=" relative">
                 {/* GO UP Button */}
                 <div className="flex justify-end">
