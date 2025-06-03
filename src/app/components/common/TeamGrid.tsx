@@ -2,31 +2,32 @@ import React from "react";
 import {TeamMemberCard} from "@/app/components/common/TeamMemberCard";
 
 const mockData = [
-    { name: "Emma Johnson", position: "Project Manager", imageUrl: "/t1.png" },
-    { name: "Liam Smith", position: "Frontend Developer", imageUrl: "t2.png" },
-    { name: "Olivia Brown", position: "UX Designer", imageUrl: "t3.png" },
-    { name: "Noah Davis", position: "Backend Developer", imageUrl: "t4.png" },
-    { name: "Ava Wilson", position: "Marketing Specialist", imageUrl: "t5.png" },
-    { name: "William Moore", position: "Product Owner", imageUrl: "t6.png" },
-    { name: "Sophia Taylor", position: "QA Engineer", imageUrl: "t7.png" },
-    { name: "James Anderson", position: "DevOps Engineer", imageUrl: "t8.png" },
-    { name: "Isabella Thomas", position: "Content Strategist", imageUrl: "t9.png" },
-    { name: "Benjamin Jackson", position: "Full Stack Developer", imageUrl: "t10.png" },
-    { name: "Mia White", position: "HR Manager", imageUrl: "t11.png" },
-    { name: "Lucas Harris", position: "Mobile Developer", imageUrl: "t12.png" },
-    { name: "Charlotte Martin", position: "SEO Specialist", imageUrl: "t13.png" },
-    { name: "Henry Thompson", position: "Data Analyst", imageUrl: "t14.png" },
-    { name: "Amelia Garcia", position: "Social Media Manager", imageUrl: "t15.png" },
-    { name: "Alexander Martinez", position: "System Architect", imageUrl: "t16.png" },
-    { name: "Harper Robinson", position: "Customer Success Manager", imageUrl: "t17.png" },
-    { name: "Michael Clark", position: "Cloud Engineer", imageUrl: "t18.png" },
-    { name: "Evelyn Rodriguez", position: "Business Analyst", imageUrl: "t19.png" },
-    { name: "Elijah Lewis", position: "IT Support Specialist", imageUrl: "t20.png" },
-    { name: "Abigail Lee", position: "Finance Manager", imageUrl: "t21.png" },
-    { name: "Daniel Walker", position: "AI Researcher", imageUrl: "t22.png" },
-    { name: "Emily Hall", position: "Legal Advisor", imageUrl: "t23.png" },
-    { name: "Matthew Allen", position: "Graphic Designer", imageUrl: "t24.png" },
-];
+        { name: "Jack Miller", position: "Workshop Manager", imageUrl: "t1.png" },
+        { name: "Emily Johnson", position: "Product Photographer", imageUrl: "t2.png" },
+        { name: "Grace Collins", position: "Packaging Specialist", imageUrl: "t3.png" },
+        { name: "Ethan Brooks", position: "Woodcraft Technician", imageUrl: "t4.png" },
+        { name: "Chloe Adams", position: "Online Store Assistant", imageUrl: "t5.png" },
+        { name: "Ryan Cooper", position: "Operations Coordinator", imageUrl: "t6.png" },
+        { name: "Lily Bennett", position: "Customer Support", imageUrl: "t7.png" },
+        { name: "Nathan Parker", position: "CNC Machine Operator", imageUrl: "t8.png" },
+        { name: "Brian Reed", position: "Wood Finishing Specialist", imageUrl: "t9.png" },
+        { name: "Jacob Murphy", position: "Product Designer", imageUrl: "t10.png" },
+        { name: "Tyler Ward", position: "Shipping Coordinator", imageUrl: "t11.png" },
+        { name: "Avery Mitchell", position: "Instagram Marketing", imageUrl: "t12.png" },
+        { name: "Logan Hayes", position: "Brand Identity Designer", imageUrl: "t13.png" },
+        { name: "Ella Peterson", position: "Workshop Assistant", imageUrl: "t14.png" },
+        { name: "Dylan Foster", position: "Material Procurement", imageUrl: "t15.png" },
+        { name: "Zoe Simmons", position: "Email Marketing Specialist", imageUrl: "t16.png" },
+        { name: "Scarlett James", position: "Community Manager", imageUrl: "t17.png" },
+        { name: "Caleb Price", position: "Quality Inspector", imageUrl: "t18.png" },
+        { name: "Victoria Russell", position: "PR & Collaborations", imageUrl: "t19.png" },
+        { name: "Madison Griffin", position: "Blog Writer", imageUrl: "t20.png" },
+        { name: "Brandon Hughes", position: "CAD Modeler", imageUrl: "t21.png" },
+        { name: "Owen Butler", position: "Laser Engraving Specialist", imageUrl: "t22.png" },
+        { name: "Jason Bailey", position: "Supply Chain Assistant", imageUrl: "t23.png" },
+        { name: "Isla Sanders", position: "Social Media Content Creator", imageUrl: "t24.png" }
+    ]
+;
 
 const TeamGrid: React.FC = () => {
     return (
