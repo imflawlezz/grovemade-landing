@@ -8,14 +8,18 @@ import {House} from "@/app/components/sections/House";
 import {Team} from "@/app/components/sections/Team";
 import {Motto} from "@/app/components/sections/Motto";
 import Footer from "@/app/components/layout/Footer";
+import Head from "next/head";
 export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className="font-light tracking-wide">
-      <Header />
+    <Head>
+        <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png"/>
+    </Head>
+    <body className="font-light tracking-wide">
+    <Header />
       <Hero />
       <GetStarted />
       <Featured />
